@@ -1,0 +1,17 @@
+.score-div {
+  background-color: #bdc3c7;
+  color: #34495e;
+  border-radius: 8px;
+  padding: 16px;
+  width: 819px;
+  height: 88px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.score-div p {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+}

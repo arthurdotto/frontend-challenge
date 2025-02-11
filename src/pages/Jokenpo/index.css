@@ -7,6 +7,7 @@
   height: 88px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
 }
 
 .score-div p {
@@ -14,4 +15,63 @@
   margin: 0;
   font-weight: 700;
   font-size: 36px;
+}
+
+.choice-button {
+  border-radius: 90px;
+  border: 10px solid;
+  width: 140px;
+  height: 140px;
+  cursor: pointer;
+}
+
+.choice-button img {
+  width: 90px;
+}
+
+.grid-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.grid-div button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results-align {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.choice-div-wrapper {
+  margin: auto;
+}
+
+.choice-div {
+  background-color: #fff;
+  border-radius: 90px;
+  border: 10px solid;
+  width: 140px;
+  height: 140px;
+  align-content: center;
+}
+
+.choice-div img {
+  width: 90px;
+}
+
+.play-again-btn {
+  padding: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #34495e;
+  border-radius: 8px;
+}
+
+.play-again-btn :hover {
+  background-color: #34495e;
+  color: #bdc3c7;
 }
